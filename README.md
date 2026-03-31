@@ -6,6 +6,7 @@
 - https://www.baeldung.com/java-thymeleaf-expression-types
 ## TODO 
 
+- Continue: https://www.youtube.com/watch?v=H86eB9g1o7A&list=PLGRDMO4rOGcNhzNRdqhmrJ_RaLOtpwZiS&index=10
 
 ## SEO 
 - Learn Spring Boot in Khmer (Complete Guide for Beginners)
