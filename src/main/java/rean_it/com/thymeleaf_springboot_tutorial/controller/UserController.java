@@ -15,8 +15,17 @@ public class UserController {
         model.addAttribute("user", user);
 
         // Return the name of the Thymeleaf template to be rendered
-        // In this case, it will look for a template named "user-variable-expression.html"
+        // In this case, it will look for a template named
+        // "user-variable-expression.html"
         return "user-variable-expression";
+    }
+
+    @GetMapping("/user-selection-expression")
+    public String userSelectionExpression(Model model) {
+        User user = new User("HKimhab", "hkimhab@gmail.com", "ADMIN", "Male");
+        model.addAttribute("user", user);
+
+        return "user-selection-expression";
     }
 
 }
