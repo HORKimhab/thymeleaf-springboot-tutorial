@@ -1,0 +1,24 @@
+{
+    // Automatically save files after a short delay
+    "files.autoSave": "afterDelay",
+    // Enable format on save globally
+    "editor.formatOnSave": true,
+    // Enable format on save specifically for Java
+    "[java]": {
+        "editor.formatOnSave": true,
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false,
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 100
+    },
+    // Use Google Java style profile (ensures proper semicolons, indentation, etc.)
+    // "java.format.settings.profile": "GoogleStyle",
+    // Optional: enable built-in Java formatter
+    "java.format.enabled": true,
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.compile.nullAnalysis.mode": "disabled",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "always"
+    }
+}
