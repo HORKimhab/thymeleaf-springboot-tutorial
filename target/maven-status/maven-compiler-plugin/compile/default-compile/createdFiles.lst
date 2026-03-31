@@ -1,2 +1,5 @@
 rean_it/com/thymeleaf_springboot_tutorial/controller/HelloWorldController.class
+rean_it/com/thymeleaf_springboot_tutorial/controller/UserController.class
+rean_it/com/thymeleaf_springboot_tutorial/controller/model.class
+rean_it/com/thymeleaf_springboot_tutorial/model/User.class
 rean_it/com/thymeleaf_springboot_tutorial/ThymeleafSpringbootTutorialApplication.class

@@ -1,21 +1,14 @@
 {
   "recommendations": [
     "openai.chatgpt",
-    "oracle.oracle-java",
-    "developersoapbox.vscode-springboot-snippets",
-    "vscjava.vscode-spring-initializr",
-    "github.copilot",
-    "vmware.vscode-spring-boot",
-    "vscjava.vscode-maven",
     "redhat.java",
-    "vscjava.vscode-java-test",
-    "vscjava.vscode-java-dependency",
-    "vscjava.vscode-java-debug",
-    "vscjava.vscode-gradle",
+    "vscjava.vscode-maven",
+    "vmware.vscode-spring-boot",
+    "redhat.vscode-xml",
+    "ecmel.vscode-html-css",
     "donjayamanne.githistory",
     "eamodio.gitlens",
     "codezombiech.gitignore",
-    "redhat.vscode-xml",
-    "ecmel.vscode-html-css"
+    "oracle.oracle-java",
   ]
 }
