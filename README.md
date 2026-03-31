@@ -3,6 +3,7 @@
 
 ## Resource
 - https://www.youtube.com/watch?v=wcTLxpElzt4&list=PLGRDMO4rOGcNhzNRdqhmrJ_RaLOtpwZiS&index=1 
+- https://www.baeldung.com/java-thymeleaf-expression-types
 ## TODO 
 
 

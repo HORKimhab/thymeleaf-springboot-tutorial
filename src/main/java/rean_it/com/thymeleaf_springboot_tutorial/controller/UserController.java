@@ -28,4 +28,9 @@ public class UserController {
         return "user-selection-expression";
     }
 
+    @GetMapping("/message-expression")
+    public String messageExpression(Model model) {
+        return "message-expression";
+    }
+
 }
