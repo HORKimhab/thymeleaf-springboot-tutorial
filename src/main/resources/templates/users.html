@@ -28,6 +28,7 @@
     <table>
         <thead>
             <tr>
+                <th>No</th>
                 <th>Name</th>
                 <th>Email</th>
                 <th>Role</th>
@@ -35,7 +36,8 @@
             </tr>
         </thead>
         <tbody>
-            <tr th:each="user : ${users}" th:object="${user}">
+            <tr th:each="user, statusVar : ${users}" th:object="${user}">
+                <td th:text="${statusVar.count}"></td>
                 <td th:text="*{name}">Name</td>
                 <td th:text="*{email}">Email</td>
                 <td th:text="*{role}">Role</td>

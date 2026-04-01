@@ -5,9 +5,10 @@
 - https://www.youtube.com/watch?v=wcTLxpElzt4&list=PLGRDMO4rOGcNhzNRdqhmrJ_RaLOtpwZiS&index=1 
 - https://www.baeldung.com/java-thymeleaf-expression-types
 - Link: https://www.thymeleaf.org/doc/articles/standardurlsyntax.html
+- Loop or Interation: https://www.baeldung.com/thymeleaf-iteration
 ## TODO 
 
-- Continue: https://www.youtube.com/watch?v=H86eB9g1o7A&list=PLGRDMO4rOGcNhzNRdqhmrJ_RaLOtpwZiS&index=10
+- Continue: https://www.youtube.com/watch?v=n19HF5CCq9o&list=PLGRDMO4rOGcNhzNRdqhmrJ_RaLOtpwZiS&index=14
 
 ## SEO 
 - Learn Spring Boot in Khmer (Complete Guide for Beginners)
