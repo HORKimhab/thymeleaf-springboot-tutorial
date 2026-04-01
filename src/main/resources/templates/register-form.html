@@ -59,6 +59,10 @@
                 <input type="radio" th:field="*{gender}" value="Female" />Female
                 <br />
 
+                <label for="married">Married:</label>
+                <input type="checkbox" th:field="*{married}" title="Tick you're married" />
+                <br />
+
                 <label for="profession">Profession:</label>
                 <select th:field="*{profession}">
                     <option th:each="profession : ${professions}" th:value="${profession}" th:text="${profession}">

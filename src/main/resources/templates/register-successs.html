@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>User registered data - thymeleaf springboot tutorial</title>
+</head>
+
+<body>
+    <div align="center">
+        <h1>User registered data</h1>
+        <p><b>Name:</b> <span th:text="${userForm.name}"></span></p>
+        <p><b>E-mail:</b> <span th:text="${userForm.email}"></span></p>
+        <p><b>Gender:</b> <span th:text="${userForm.gender}"></span></p>
+        <p><b>Married:</b> <span th:text="${userForm.married}"></span></p>
+        <p><b>Profession:</b> <span th:text="${userForm.profession}"></span></p>
+    </div>
+</body>
+
+</html>
