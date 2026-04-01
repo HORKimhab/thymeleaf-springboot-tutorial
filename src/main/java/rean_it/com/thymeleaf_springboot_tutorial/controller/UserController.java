@@ -58,4 +58,12 @@ public class UserController {
         return "users";
     }
 
+    @GetMapping("/switch-statement")
+    public String switchStatement(Model model) {
+        User admin = new User("admin", "admin   admin.hkimhab@gmail.com", "ADMIN", "Male");
+        model.addAttribute("user", admin);
+
+        return "switch-statement";
+    }
+
 }

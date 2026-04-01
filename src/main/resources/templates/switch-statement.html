@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Switch statement - thymeleaf springboot tutorial</title>
+</head>
+
+<body>
+    <h1>Switch statement thymeleaf attributes</h1>
+    <h3 th:text="${user.name}"></h3>
+    <div th:switch="${user.role}">
+        <p th:case="ADMIN">User is an Admin</p>
+        <p th:case="USER">User</p>
+        <p th:case="*">Guest</p>
+    </div>
+</body>
+
+</html>
