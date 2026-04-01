@@ -1,5 +1,7 @@
 package rean_it.com.thymeleaf_springboot_tutorial.controller;
 
+import java.util.List;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -42,6 +44,18 @@ public class UserController {
     @GetMapping("/fragment-expression")
     public String fragmentExpression() {
         return "fragment-expression";
+    }
+
+    @GetMapping("/users")
+    public String listUsers(Model model) {
+        User admin = new User("admin", "admin   admin.hkimhab@gmail.com", "ADMIN", "Male");
+        User hkimhab = new User("HKimhab", "hkimhab@gmail.com", "USER", "Male");
+        User guest = new User("guest", "guest   guest.hkimhab@gmail .com", "GUEST", "   Male");
+
+        List<User> users = List.of(admin, hkimhab, guest);
+        model.addAttribute("users", users);
+
+        return "users";
     }
 
 }
