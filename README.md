@@ -8,7 +8,7 @@
 - Loop or Interation: https://www.baeldung.com/thymeleaf-iteration
 ## TODO 
 
-- Continue: https://www.youtube.com/watch?v=n19HF5CCq9o&list=PLGRDMO4rOGcNhzNRdqhmrJ_RaLOtpwZiS&index=14
+- Step by step to record video of Blog Web Application Tutorial after basic thymeleaf tutorial 
 
 ## SEO 
 - Learn Spring Boot in Khmer (Complete Guide for Beginners)
