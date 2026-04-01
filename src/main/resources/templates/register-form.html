@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>User Registeration Form</title>
+    <style type="text/css">
+        .form {
+            border-style: solid;
+            width: 500px;
+        }
+
+        label {
+            display: inline-block;
+            width: 200px;
+            margin: 5px;
+            text-align: left;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        select {
+            display: inline-block;
+            width: 200px;
+        }
+
+        input[type="radio"] {
+            margin-left: 45px;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 190px;
+        }
+
+        button {
+            padding: 5px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div align="center">
+        <div class="form">
+            <h1>User Registeration</h1>
+            <form role="form" method="POST" th:action="@{/register/save}" th:object="${userForm}">
+                <label for="full-name">Full name:</label>
+                <input type="text" th:field="*{name}" /><br />
+
+                <label for="email">E-mail:</label>
+                <input type="email" th:field="*{email}" /><br />
+
+                <label for="password">Password:</label>
+                <input type="password" th:field="*{password}" /><br />
+
+                <label for="gender">Gender:</label>
+                <input type="radio" th:field="*{gender}" value="Male" />Male
+                <input type="radio" th:field="*{gender}" value="Female" />Female
+                <br />
+
+                <label for="profession">Profession:</label>
+                <select th:field="*{profession}">
+                    <option th:each="profession : ${professions}" th:value="${profession}" th:text="${profession}">
+                    </option>
+                </select><br />
+
+                <label for="address">Address:</label>
+                <textarea rows="5" cols="25" th:field="*{address}"></textarea>
+                <br />
+
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
