@@ -4,6 +4,7 @@
 ## Resource
 - https://www.youtube.com/watch?v=wcTLxpElzt4&list=PLGRDMO4rOGcNhzNRdqhmrJ_RaLOtpwZiS&index=1 
 - https://www.baeldung.com/java-thymeleaf-expression-types
+- Link: https://www.thymeleaf.org/doc/articles/standardurlsyntax.html
 ## TODO 
 
 - Continue: https://www.youtube.com/watch?v=H86eB9g1o7A&list=PLGRDMO4rOGcNhzNRdqhmrJ_RaLOtpwZiS&index=10

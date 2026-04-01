@@ -33,4 +33,10 @@ public class UserController {
         return "message-expression";
     }
 
+    @GetMapping("/link-expression")
+    public String linkExpression(Model model) {
+        model.addAttribute("id", "22");
+        return "link-expression";
+    }
+
 }

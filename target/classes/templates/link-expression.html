@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Link Expression</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/demo.css}" />
+
+</head>
+
+<body>
+    <h1>Link expression demo:</h1>
+    <mark>--link expression--</mark><br />
+    <a th:href="@{/user-variable-expression}">Variable expression</a><br />
+    <a th:href="@{/user-selection-expression}">Selection expression</a>
+    <p><a th:href="@{/link-expression/{id}(id=${id})}">Selection expression</a></p>
+    <p><a href="https://www.thymeleaf.org/doc/articles/standardurlsyntax.html" title="More link expression">More</a></p>
+</body>
+
+</html>

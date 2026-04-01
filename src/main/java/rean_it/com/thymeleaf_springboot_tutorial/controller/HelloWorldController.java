@@ -12,4 +12,9 @@ public class HelloWorldController {
         model.addAttribute("message", "Hello, World!");
         return "hello";
     }
+
+    @GetMapping("/")
+    public String homePage() {
+        return "index";
+    }
 }
