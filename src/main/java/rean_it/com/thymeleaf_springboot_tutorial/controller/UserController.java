@@ -29,7 +29,7 @@ public class UserController {
     }
 
     @GetMapping("/message-expression")
-    public String messageExpression(Model model) {
+    public String messageExpression() {
         return "message-expression";
     }
 
@@ -37,6 +37,11 @@ public class UserController {
     public String linkExpression(Model model) {
         model.addAttribute("id", "22");
         return "link-expression";
+    }
+
+    @GetMapping("/fragment-expression")
+    public String fragmentExpression() {
+        return "fragment-expression";
     }
 
 }

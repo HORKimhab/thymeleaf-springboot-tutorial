@@ -1,0 +1,5 @@
+<th:block th:fragment="bootstrapJs">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        th:attr="data-fallback=@{/bootstrap/js/bootstrap.bundle.min.js}"
+        onerror="this.onerror=null;this.src=this.dataset.fallback;"></script>
+</th:block>

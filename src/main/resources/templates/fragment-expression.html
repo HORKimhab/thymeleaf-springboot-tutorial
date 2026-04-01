@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="~{common/header :: header('Fragment Expression')}"></head>
+
+
+<body>
+    <h1>Fragment Expressions Demo:</h1>
+
+    <div>
+        <h1>Page body</h1>
+    </div>
+
+    <div th:replace="~{common/footer :: footer}"></div>
+
+    <!-- <div th:insert="~{footer :: copy}"></div>
+
+    <div th:replace="~{footer :: copy}"></div> -->
+
+    <!-- <div>
+        <footer>
+            &copy; 2026 The Good Thymes Virtual Grocery
+        </footer>
+    </div>
+
+    <footer>
+        &copy; 2026 The Good Thymes Virtual Grocery
+    </footer> -->
+
+    <!-- common/js: common is dir, js is js.html and  bootstrapJs is th:fragment="bootstrapJs"-->
+    <th:block th:replace="~{common/js :: bootstrapJs}"></th:block>
+</body>
+
+</html>
