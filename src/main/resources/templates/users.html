@@ -33,6 +33,7 @@
                 <th>Email</th>
                 <th>Role</th>
                 <th>Gender</th>
+                <th>Actions</th>
             </tr>
         </thead>
         <tbody>
@@ -42,6 +43,11 @@
                 <td th:text="*{email}">Email</td>
                 <td th:text="*{role}">Role</td>
                 <td th:text="*{gender}">Gender</td>
+                <td>
+                    <a th:href="@{/update}" th:if="*{role} == 'ADMIN'">Update</a>
+                    <a th:href="@{/delete}" th:if="*{role} == 'ADMIN'">Delete</a>
+                    <a th:href="@{/view}" th:unless="*{role} == 'ADMIN'">View</a>
+                </td>
             </tr>
         </tbody>
     </table>
